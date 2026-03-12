@@ -1,0 +1,19 @@
+{
+  "name": "ebay-webhook-server",
+  "version": "1.0.0",
+  "description": "eBay Marketplace Account Deletion Webhook for Production API Access",
+  "main": "ebay-webhook-complete.js",
+  "scripts": {
+    "start": "node ebay-webhook-complete.js",
+    "dev": "node ebay-webhook-complete.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["ebay", "webhook", "marketplace", "api", "pokemon", "cards"],
+  "author": "Pokemon Card Price Research",
+  "license": "MIT"
+}
